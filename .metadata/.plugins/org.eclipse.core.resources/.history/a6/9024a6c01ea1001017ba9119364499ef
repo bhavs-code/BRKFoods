@@ -1,0 +1,5 @@
+package com.brkfoods.model;
+
+public class Restaurant {
+
+}
