@@ -1,0 +1,5 @@
+package com.brkfoods.dto;
+
+public class ItemDTO {
+
+}

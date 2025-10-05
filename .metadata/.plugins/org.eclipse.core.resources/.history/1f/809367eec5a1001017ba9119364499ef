@@ -1,0 +1,19 @@
+package com.brkfoods.model;
+
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+
+public class DeliveryAssignment {
+	
+	private long assignmentId;
+	
+	private long orderId;
+	
+	private String status;
+	
+	private String assignedTime;
+
+	@ManyToOne
+	@JoinColumn(name = "delivery_person_id")
+	private long deliveryPerson;
+}

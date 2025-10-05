@@ -1,0 +1,15 @@
+package com.brkfoods.model;
+
+public class DeliveryAssignment {
+	
+	private long assignmentId;
+	
+	private long orderId;
+	
+	private long deliveryPersonId;
+	
+	private String status;
+	
+	private String assignedTime;
+
+}
